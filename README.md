@@ -1,0 +1,2 @@
+# Project-Genetika
+Tugas Genetika
