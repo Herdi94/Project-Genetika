@@ -1,0 +1,907 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTextArea" name="jTextArea1">
+          <Properties>
+            <Property name="columns" type="int" value="20"/>
+            <Property name="rows" type="int" value="5"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="jLabel3"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JFrame" name="jFrame1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+    <Container class="javax.swing.JFrame" name="jFrame2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="400" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="300" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="title" type="java.lang.String" value="TSP with Genetika"/>
+    <Property name="cursor" type="java.awt.Cursor" editor="org.netbeans.modules.form.editors2.CursorEditor">
+      <Color id="Crosshair Cursor"/>
+    </Property>
+    <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+      <Font name="Calibri" size="12" style="0"/>
+    </Property>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="43" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel2" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="102" max="-2" attributes="0"/>
+                      <Component id="Proses" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jPanel1" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel3" alignment="0" min="-2" pref="293" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="jPanel4" max="32767" attributes="0"/>
+                  <Component id="jPanel5" max="32767" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+              <EmptySpace pref="278" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="Proses" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="29" max="-2" attributes="0"/>
+                      <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                      <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                      <Component id="jPanel3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Component id="jPanel4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jPanel5" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                      <Component id="jPanel7" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="81" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="Proses">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Proses"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ProsesActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="PROGRAM ALGORITMA GENETIKA"/>
+      </Properties>
+    </Component>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="1" attributes="0">
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="60" max="-2" attributes="0"/>
+              </Group>
+              <Component id="jPanel9" alignment="0" max="32767" attributes="0"/>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tampil_c1" min="-2" pref="162" max="-2" attributes="0"/>
+                      <Component id="tampil_c6" alignment="0" min="-2" pref="162" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="23" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="tampil_c1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jPanel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="tampil_c6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PROSES INISIASI"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tampil_c1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C[1] = "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tampil_c6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="C[6] = "/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel9">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="tampil_c2" max="32767" attributes="0"/>
+                  <Component id="tampil_c3" max="32767" attributes="0"/>
+                  <Component id="tampil_c4" alignment="0" max="32767" attributes="0"/>
+                  <Component id="tampil_c5" alignment="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="tampil_c2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace pref="7" max="32767" attributes="0"/>
+                      <Component id="tampil_c3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tampil_c4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="tampil_c5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="tampil_c2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[2] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tampil_c3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[3] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tampil_c4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[4] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="tampil_c5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[5] = "/>
+                <Property name="toolTipText" type="java.lang.String" value=""/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel4">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Component id="tot_fitness" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="tampil_q_1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="tampil_q_2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="tampil_q_3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="tampil_q_4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="tampil_q_5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="tampil_q_6" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel8" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="tampil_q_1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="tampil_q_2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                  <Component id="tampil_q_3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="tampil_q_4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Component id="tampil_q_5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="tampil_q_6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="tot_fitness" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="SELEKSI"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tampil_q_1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Q[1] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tampil_q_2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Q[2] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tampil_q_3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Q[3] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tampil_q_4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Q[4] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tampil_q_5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Q[5] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tampil_q_6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="Q[6] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="tot_fitness">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="TOTAL FITNESS = "/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel5">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="view_p1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_p2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_p3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_p4" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <EmptySpace min="-2" pref="39" max="-2" attributes="0"/>
+                                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="view_p5" alignment="0" min="-2" max="-2" attributes="0"/>
+                              <Component id="view_p6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="13" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="jPanel6" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Component id="view_p1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="view_p2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="view_p3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="view_p4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                  <Component id="view_p5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="view_p6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jPanel6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PROSES ROULETE WHEEL"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_p1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P[1] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_p2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P[2] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_p3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P[3] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_p4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P[4] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_p5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P[5] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_p6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="P[6] ="/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel6">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="-2" pref="85" max="-2" attributes="0"/>
+                              <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="view_c1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_c2" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_c3" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_c4" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_c5" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_c6" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel7" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="view_c1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="view_c2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="view_c3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="view_c4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Component id="view_c5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="view_c6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="15" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel7">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="KUMULATIF"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_c1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[1] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_c2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[2] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_c3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[3] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_c4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[4] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_c5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[5] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_c6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="C[6] = "/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="pembentukan" min="-2" pref="168" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="38" max="32767" attributes="0"/>
+                  <Component id="pembentukan" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="32" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="PEMBENTUKAN KROMOSOM"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="pembentukan">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pembentukanActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="view_eval_f1" alignment="0" max="32767" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="view_eval_f6" alignment="0" max="32767" attributes="0"/>
+                              <Component id="view_eval_f5" alignment="0" max="32767" attributes="0"/>
+                              <Component id="view_eval_f4" alignment="0" max="32767" attributes="0"/>
+                              <Component id="view_eval_f3" alignment="0" max="32767" attributes="0"/>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Component id="view_eval_f2" min="-2" pref="211" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="jPanel10" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace min="-2" pref="302" max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="17" max="-2" attributes="0"/>
+                  <Component id="view_eval_f1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="9" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="jPanel10" min="-2" max="-2" attributes="0"/>
+                      <Group type="102" attributes="0">
+                          <Component id="view_eval_f2" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="view_eval_f3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="view_eval_f4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="view_eval_f5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Component id="view_eval_f6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="63" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="EVALUASI KROMOSOM"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_eval_f1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F[1] = "/>
+            <Property name="toolTipText" type="java.lang.String" value=""/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_eval_f3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F[3] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_eval_f4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F[4] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_eval_f5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F[5] ="/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_eval_f6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F[6] ="/>
+            <Property name="name" type="java.lang.String" value="" noResource="true"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel10">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <EmptySpace min="0" pref="36" max="32767" attributes="0"/>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+        </Container>
+        <Component class="javax.swing.JLabel" name="view_eval_f2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="F[2] ="/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel7">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="view_r1" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_r2" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_r3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_r4" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_r5" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="view_r6" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="jPanel8" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="0" pref="20" max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel9" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="view_r1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Component id="view_r2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="view_r3" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="view_r4" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="view_r5" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="view_r6" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace pref="18" max="32767" attributes="0"/>
+                  <Component id="jPanel8" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="NILAI R"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_r1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="R[1] = "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_r2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="R[2] = "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_r3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="R[3] = "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_r4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="R[4] = "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_r5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="R[5] = "/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="view_r6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="R[6] = "/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JPanel" name="jPanel8">
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace pref="49" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="view_cr3" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_cr4" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_cr5" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_cr6" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_cr2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_cr1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_pc" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="jLabel12" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_rk1" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_rk2" alignment="0" min="-2" max="-2" attributes="0"/>
+                          <Component id="view_rk3" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Component id="jLabel10" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="view_pc" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                      <Component id="jLabel11" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="7" max="-2" attributes="0"/>
+                      <Component id="view_cr1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="view_cr2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="view_cr3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="view_cr4" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="view_cr5" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="view_cr6" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="jLabel12" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Component id="view_rk1" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="view_rk2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="view_rk3" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="38" max="32767" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="jLabel10">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="CROSSOVER"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_cr1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R[1] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_cr2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R[2] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_cr3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R[3] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_cr4">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R[4] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_cr5">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R[5] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_cr6">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R[6] = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel11">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="NILAI ACAK"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_pc">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="PC = "/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="jLabel12">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="R[K] &lt; PC"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_rk1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel13"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_rk2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel13"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="view_rk3">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="jLabel13"/>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
